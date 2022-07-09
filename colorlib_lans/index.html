@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags--->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Au Register Forms by Colorlib</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Event Registration Form</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/PHPMailer/i.php" method="POST">
+                        <div class="form-row">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Event name</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="event">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Phone</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                    
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="phone">
+                                            <label class="label--desc">Phone Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="name">class</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple">
+                                        <select name="class">
+                                            <option disabled="disabled" selected="selected">Choose option</option>
+                                            <option>R1</option>
+                                            <option>T1A</option>
+                                            <option>T1B</option>
+                                            <option>P1</option>
+                                            <option>M1</option>
+                                            <option>B1</option>
+                                            <option>U1</option>
+                                            <option>R2</option>
+                                            <option>T2A</option>
+                                            <option>T2B</option>
+                                            <option>P2</option>
+                                            <option>M2</option>
+                                            <option>B2</option>
+                                            <option>U2</option>
+                                            <option>R3</option>
+                                            <option>T3A</option>
+                                            <option>T3B</option>
+                                            <option>P3</option>
+                                            <option>M3</option>
+                                            <option>B3</option>
+                                            <option>U3</option>
+                                            <option>R4</option>
+                                            <option>T4A</option>
+                                            <option>T4B</option>
+                                            <option>P4</option>
+                                            <option>M4</option>
+                                            <option>B4</option>
+                                            <option>U4</option>
+                                            <option>R5</option>
+                                            <option>T5A</option>
+                                            <option>T5B</option>
+                                            <option>P5</option>
+                                            <option>M5</option>
+                                            <option>B5</option>
+                                            <option>U5</option>
+                                            <option>R6</option>
+                                            <option>T6A</option>
+                                            <option>T6B</option>
+                                            <option>P6</option>
+                                            <option>M6</option>
+                                            <option>B6</option>
+                                            <option>U6</option>
+                                            <option>R7</option>
+                                            <option>T7A</option>
+                                            <option>T7B</option>
+                                            <option>P7</option>
+                                            <option>M7</option>
+                                            <option>B7</option>
+                                            <option>U7</option>
+                                            <option>R8</option>
+                                            <option>T8A</option>
+                                            <option>T8B</option>
+                                            <option>P8</option>
+                                            <option>M8</option>
+                                            <option>B8</option>
+                                            <option>U8</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                        <div class="name"><label for="more">Event details</label></div>
+                        <div class="input-group"><textarea id="more" name="more" rows="4" cols="45" placeholder="detials include duration of the event and other relevent detials necessary for the faculty to gain a general picture about your event"></textarea></div>
+                        <div>
+                        <div class="form-row">
+                            <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
